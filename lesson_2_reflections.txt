@@ -1,3 +1,10 @@
 >>What happens when you initialize a repository? Why do you need to do it?
 
 Git starts tracking files on that repository. We need to do it to tell git to treat the folder as a repo.
+
+>>How can you use the staging area to make sure you have one commit per logical change?
+If our working directory contains multiple logical changes, we can incrmenentally add logical changes to the staging area and then commit those changes. In this way though we can make multiple changes in our working directory, we still will be able to keep our commits short.
+
+>>What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can be useful when we want to develop a new feature. But still preserve the release version. Then finally when the feature is developed we can merge the feature branch into the master branch. In this way multiple team members can simultaneously work on different features.
