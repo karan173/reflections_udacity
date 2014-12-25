@@ -1,0 +1,3 @@
+>>What happens when you initialize a repository? Why do you need to do it?
+
+Git starts tracking files on that repository. We need to do it to tell git to treat the folder as a repo.
