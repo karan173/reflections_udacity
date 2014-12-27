@@ -8,3 +8,16 @@ If our working directory contains multiple logical changes, we can incrmenentall
 >>What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches can be useful when we want to develop a new feature. But still preserve the release version. Then finally when the feature is developed we can merge the feature branch into the master branch. In this way multiple team members can simultaneously work on different features.
+
+>>How do the diagrams help you visualize the branch structure?
+They depict the relationships between the various commits and the tips of various branches. Hence they help us to visualize graphically the history of our repo.
+
+>>What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A common commit is formed with the 2 merged tips as its parent. 
+
+Because it is a result of combination of 2 branches.
+
+>>What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging is useful when there are no merge conflicts. It also helps in manually merging by listing all merge conflicts.
+
+Merging manually is useful when we ourselves want to resolve the merge conflicts.
