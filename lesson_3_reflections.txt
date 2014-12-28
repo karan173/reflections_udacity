@@ -8,3 +8,7 @@ Forks - To take forward and work on someone's existing work. Start a new project
 Clones - To create a copy of a git repo from remote to local, or local to local
 
 Branches - To create a parallel code base, generally to develop an experimental feature. Many branches can exist within the same repo.
+
+>>What is the benefit of having a copy of the last known state of the remote stored locally?
+-->We can work locally when we have to merge the remote and the local changes.
+-->We can compare our progress with the last known remote state.
